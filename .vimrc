@@ -5,6 +5,7 @@ filetype plugin on
 hi CursorLine cterm=none ctermfg=none ctermbg=none
 hi CursorLineNr cterm=none ctermfg=none ctermbg=none
 hi LineNr cterm=none ctermfg=darkgrey ctermbg=none
+hi StatusLine cterm=none ctermfg=none ctermbg=darkblue
 hi Visual cterm=none ctermfg=none ctermbg=darkgrey
 
 let $LANG = 'en_US'
