@@ -1,5 +1,3 @@
-"colorscheme wildcharm 
-
 filetype indent on
 filetype on
 filetype plugin on
