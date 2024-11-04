@@ -1,3 +1,11 @@
+" ██╗   ██╗ ██╗ ███╗   ███╗
+" ██║   ██║ ██║ ████╗ ████║
+" ██║   ██║ ██║ ██╔████╔██║
+" ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║
+"  ╚████╔╝  ██║ ██║ ╚═╝ ██║
+"   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
+" from my cold, dead hands!
+
 filetype indent on
 filetype on
 filetype plugin on
@@ -5,10 +13,10 @@ filetype plugin on
 hi CursorLine cterm=none ctermfg=none ctermbg=none
 hi CursorLineNr cterm=none ctermfg=none ctermbg=none
 hi LineNr cterm=none ctermfg=darkgrey ctermbg=none
-hi StatusLine cterm=none ctermfg=none ctermbg=8
+hi StatusLine cterm=none ctermfg=none ctermbg=238
 hi StatusLineNC cterm=none ctermfg=none ctermbg=0
-hi VertSplit cterm=none ctermfg=7 ctermbg=none
-hi Visual cterm=none ctermfg=none ctermbg=darkgrey
+hi VertSplit cterm=none ctermfg=238 ctermbg=none
+hi Visual cterm=none ctermfg=none ctermbg=238
 
 let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
