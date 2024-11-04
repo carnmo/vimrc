@@ -12,7 +12,7 @@ filetype plugin on
 
 hi CursorLine cterm=none ctermfg=none ctermbg=none
 hi CursorLineNr cterm=none ctermfg=none ctermbg=none
-hi LineNr cterm=none ctermfg=darkgrey ctermbg=none
+hi LineNr cterm=none ctermfg=241 ctermbg=none
 hi StatusLine cterm=none ctermfg=none ctermbg=238
 hi StatusLineNC cterm=none ctermfg=none ctermbg=0
 hi VertSplit cterm=none ctermfg=238 ctermbg=none
