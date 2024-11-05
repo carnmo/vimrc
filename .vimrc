@@ -30,7 +30,6 @@ nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
 nnoremap <C-b> :!make<CR>
 nnoremap <C-d> :%!xxd<CR>
-nnoremap <A-Down> :vsplit<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
 nnoremap <C-o> :Lexplore<CR>
