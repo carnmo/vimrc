@@ -21,22 +21,22 @@ hi Visual cterm=none ctermfg=none ctermbg=238
 let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
 let g:netrw_sort_sequence = ""
-let g:netrw_liststyle = "5"
-let g:netrw_banner = "0"
 
-nnoremap <C-o> :Lexplore<CR>
-nnoremap <C-t> :tabnew<CR>
+nnoremap <A-Down> :vsplit<CR>
+nnoremap <A-Left> :bp<CR>
 nnoremap <A-PageDown> :tabnext<CR>
 nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
-nnoremap <A-Left> :bp<CR>
 nnoremap <A-Up> :split<CR>
-nnoremap <A-Down> :vsplit<CR>
 nnoremap <C-b> :!make<CR>
+nnoremap <C-d> :%!xxd<CR>
+nnoremap <A-Down> :vsplit<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
+nnoremap <C-o> :Lexplore<CR>
 nnoremap <C-q> :q!<CR>
 nnoremap <C-s> :w<CR>
+nnoremap <C-t> :tabnew<CR>
 
 set autoindent
 set autoread
