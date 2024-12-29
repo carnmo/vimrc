@@ -6,17 +6,11 @@
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
 " from my cold, dead hands!
 
+colorscheme onedark
+
 filetype indent on
 filetype on
 filetype plugin on
-
-hi CursorLine cterm=none ctermfg=none ctermbg=none
-hi CursorLineNr cterm=none ctermfg=none ctermbg=none
-hi LineNr cterm=none ctermfg=241 ctermbg=none
-hi StatusLine cterm=none ctermfg=none ctermbg=238
-hi StatusLineNC cterm=none ctermfg=none ctermbg=0
-hi VertSplit cterm=none ctermfg=238 ctermbg=none
-hi Visual cterm=none ctermfg=none ctermbg=238
 
 let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
@@ -29,6 +23,9 @@ nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
 nnoremap <C-b> :!make<CR>
+inoremap <C-b> :!make<CR>
+nnoremap <C-r> :!cargo run<CR>
+inoremap <C-r> :!cargo run<CR>
 nnoremap <C-d> :%!xxd<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
@@ -68,6 +65,7 @@ set novisualbell
 set nowrap
 set nowritebackup
 set number
+set preserveindent
 set ruler
 set scrolloff=10
 set shiftround
@@ -80,6 +78,7 @@ set signcolumn=no
 set smartcase
 set smartindent
 set smarttab
+set softtabstop=0
 set t_Co=256
 set tabstop=4
 set title
