@@ -16,6 +16,9 @@ let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
 let g:netrw_sort_sequence = ""
 
+"Tabs mean you see my code the way you choose to. Spaces mean you see it the way I want you to. -- thingsinjars
+let g:rust_recommended_style = 0
+
 nnoremap <A-Down> :vsplit<CR>
 nnoremap <A-Left> :bp<CR>
 nnoremap <A-PageDown> :tabnext<CR>
