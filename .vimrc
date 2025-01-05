@@ -6,7 +6,7 @@
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
 " from my cold, dead hands!
 
-colorscheme onedark
+"colorscheme onedark
 
 filetype indent on
 filetype on
