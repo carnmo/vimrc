@@ -6,8 +6,6 @@
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
 " from my cold, dead hands!
 
-"colorscheme onedark
-
 filetype indent on
 filetype on
 filetype plugin on
