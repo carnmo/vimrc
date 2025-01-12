@@ -6,13 +6,11 @@
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
 " from my cold, dead hands!
 
+colorscheme onedark
+
 filetype indent on
 filetype on
 filetype plugin on
-
-highlight CursorLine cterm=NONE ctermbg=236
-highlight CursorLineNr cterm=NONE ctermfg=250 ctermbg=236
-highlight LineNr ctermfg=8 ctermbg=NONE
 
 let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
