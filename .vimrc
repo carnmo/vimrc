@@ -6,11 +6,17 @@
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
 " from my cold, dead hands!
 
-colorscheme onedark
-
 filetype indent on
 filetype on
 filetype plugin on
+
+highlight CursorLine cterm=none ctermbg=235
+highlight CursorLineNr cterm=none ctermfg=7
+highlight LineNr cterm=none ctermfg=8
+highlight StatusLine cterm=none ctermbg=235 ctermfg=7
+highlight StatusLineNC cterm=none ctermbg=235 ctermfg=7
+highlight VertSplit cterm=none ctermbg=235 ctermfg=0
+highlight Visual ctermbg=5 ctermfg=7 
 
 let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
@@ -26,9 +32,7 @@ nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
 nnoremap <C-b> :!make<CR>
-inoremap <C-b> :!make<CR>
 nnoremap <C-r> :!cargo run<CR>
-inoremap <C-r> :!cargo run<CR>
 nnoremap <C-d> :%!xxd<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
