@@ -10,7 +10,7 @@ filetype indent on
 filetype on
 filetype plugin on
 
-highlight CursorLine cterm=none ctermbg=235
+highlight CursorLine cterm=none ctermbg=236
 highlight CursorLineNr cterm=none ctermfg=7
 highlight LineNr cterm=none ctermfg=8
 highlight StatusLine cterm=none ctermbg=235 ctermfg=7
