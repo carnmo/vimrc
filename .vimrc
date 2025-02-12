@@ -13,8 +13,8 @@ filetype plugin on
 highlight CursorLine cterm=none ctermbg=236
 highlight CursorLineNr cterm=none ctermfg=7
 highlight LineNr cterm=none ctermfg=8
-highlight StatusLine cterm=none ctermbg=235 ctermfg=7
-highlight StatusLineNC cterm=none ctermbg=235 ctermfg=7
+highlight StatusLine cterm=none ctermbg=none ctermfg=7
+highlight StatusLineNC cterm=none ctermbg=none ctermfg=8
 highlight VertSplit cterm=none ctermbg=235 ctermfg=0
 highlight Visual ctermbg=5 ctermfg=7 
 
