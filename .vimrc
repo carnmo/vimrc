@@ -31,7 +31,7 @@ nnoremap <A-PageDown> :tabnext<CR>
 nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
-nnoremap <C-b> :!make<CR>
+nnoremap <C-b> :!make -j<CR>
 nnoremap <C-r> :!cargo run<CR>
 nnoremap <C-d> :%!xxd<CR>
 nnoremap <C-k> :bd<CR>
