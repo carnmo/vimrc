@@ -4,7 +4,13 @@
 " ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║
 "  ╚████╔╝  ██║ ██║ ╚═╝ ██║
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
-" from my cold, dead hands!
+" From my cold, dead hands!
+"
+" Thank you,
+" Bram Moolenaar (1961-2023)
+"
+" Enjoy your well deserved
+" rest and eternal glory <3
 
 filetype indent on
 filetype on
@@ -31,7 +37,7 @@ nnoremap <A-PageDown> :tabnext<CR>
 nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
-nnoremap <C-b> :!make<CR><CR>
+nnoremap <C-b> :!make<CR>
 nnoremap <C-r> :!cargo run<CR>
 "nnoremap <C-D> :%!xxd<CR>
 nnoremap <C-d> :Termdebug<CR>
@@ -62,7 +68,6 @@ set incsearch
 set langmenu=en_US
 set laststatus=2
 set linebreak
-set messagesopt=wait:0,history:500
 set modelines=0
 set more
 set mouse=a
