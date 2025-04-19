@@ -31,15 +31,18 @@ nnoremap <A-PageDown> :tabnext<CR>
 nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
-nnoremap <C-b> :!make -j<CR>
+nnoremap <C-b> :!make<CR><CR>
 nnoremap <C-r> :!cargo run<CR>
-nnoremap <C-d> :%!xxd<CR>
+"nnoremap <C-D> :%!xxd<CR>
+nnoremap <C-d> :Termdebug<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
 nnoremap <C-o> :Lexplore<CR>
 nnoremap <C-q> :q!<CR>
 nnoremap <C-s> :w<CR>
 nnoremap <C-t> :tabnew<CR>
+
+packadd! termdebug
 
 set autoindent
 set autoread
@@ -50,6 +53,7 @@ set completeopt=menu,longest,preview
 set copyindent
 set cursorline
 set encoding=utf-8
+set fileformat=unix
 set hidden
 set history=100
 set hlsearch
@@ -58,9 +62,10 @@ set incsearch
 set langmenu=en_US
 set laststatus=2
 set linebreak
+set messagesopt=wait:0,history:500
 set modelines=0
 set more
-set mouse=
+set mouse=a
 set noautowrite
 set nobackup
 set nocompatible
@@ -77,6 +82,7 @@ set ruler
 set scrolloff=10
 set shiftround
 set shiftwidth=4
+set shortmess=
 set showcmd
 set showmode
 set showtabline=1
