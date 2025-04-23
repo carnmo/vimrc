@@ -11,6 +11,10 @@
 "
 " Enjoy your well deserved
 " rest and eternal glory <3
+"
+" -------------------------
+"
+"Tabs mean you see my code the way you choose to. Spaces mean you see it the way I want you to." -- thingsinjars
 
 filetype indent on
 filetype on
@@ -28,9 +32,6 @@ let $LANG = 'en_US'
 let g:netrw_sort_options = "i"
 let g:netrw_sort_sequence = ""
 
-"Tabs mean you see my code the way you choose to. Spaces mean you see it the way I want you to." -- thingsinjars
-let g:rust_recommended_style = 0
-
 nnoremap <A-Down> :vsplit<CR>
 nnoremap <A-Left> :bp<CR>
 nnoremap <A-PageDown> :tabnext<CR>
@@ -38,7 +39,6 @@ nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
 nnoremap <C-b> :!make<CR>
-nnoremap <C-r> :!cargo run<CR>
 "nnoremap <C-D> :%!xxd<CR>
 nnoremap <C-d> :Termdebug<CR>
 nnoremap <C-k> :bd<CR>
@@ -70,7 +70,7 @@ set laststatus=2
 set linebreak
 set modelines=0
 set more
-set mouse=a
+set mouse=
 set noautowrite
 set nobackup
 set nocompatible
