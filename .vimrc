@@ -6,15 +6,23 @@
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
 " From my cold, dead hands!
 "
+" -------------------------
+"
 " Thank you,
-" Bram Moolenaar (1961-2023)
+" Bram Moolenaar, 1961-2023
 "
 " Enjoy your well deserved
 " rest and eternal glory <3
 "
 " -------------------------
 "
-"Tabs mean you see my code the way you choose to. Spaces mean you see it the way I want you to." -- thingsinjars
+" Tabs mean you see my code
+" the way you choose to.
+" Spaces mean you see it
+" the way I want you to."
+"           -- thingsinjars
+
+" -------------------------
 
 filetype indent on
 filetype on
@@ -29,8 +37,15 @@ highlight VertSplit cterm=none ctermbg=235 ctermfg=0
 highlight Visual ctermbg=5 ctermfg=7 
 
 let $LANG = 'en_US'
+
+let g:netrw_banner = 0
+let g:netrw_browse_split = 2
+let g:netrw_chgwin = 1
+let g:netrw_liststyle = 3
+let g:netrw_preview = 1
 let g:netrw_sort_options = "i"
 let g:netrw_sort_sequence = ""
+let g:netrw_winsize = 10
 
 nnoremap <A-Down> :vsplit<CR>
 nnoremap <A-Left> :bp<CR>
@@ -39,7 +54,6 @@ nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
 nnoremap <C-b> :!make<CR>
-"nnoremap <C-D> :%!xxd<CR>
 nnoremap <C-d> :Termdebug<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
