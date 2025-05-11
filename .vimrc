@@ -4,6 +4,7 @@
 " ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║
 "  ╚████╔╝  ██║ ██║ ╚═╝ ██║
 "   ╚═══╝   ╚═╝ ╚═╝     ╚═╝
+"
 " From my cold, dead hands!
 "
 " -------------------------
@@ -45,7 +46,7 @@ let g:netrw_liststyle = 3
 let g:netrw_preview = 1
 let g:netrw_sort_options = "i"
 let g:netrw_sort_sequence = ""
-let g:netrw_winsize = 10
+let g:netrw_winsize = 15
 
 nnoremap <A-Down> :vsplit<CR>
 nnoremap <A-Left> :bp<CR>
@@ -73,6 +74,7 @@ set completeopt=menu,longest,preview
 set copyindent
 set cursorline
 set encoding=utf-8
+set fileencoding=utf-8
 set fileformat=unix
 set hidden
 set history=100
@@ -113,15 +115,17 @@ set smarttab
 set softtabstop=0
 set t_Co=256
 set tabstop=4
+set timeoutlen=500
 set title
 set ttyfast
 set undodir=$HOME/.vim/
 set undofile
 set undolevels=999
-set updatetime=300
+set updatetime=250
 set whichwrap+=<,>,h,l,[,]
 set wildmenu
-set wildmode=longest:full
+set wildmode=longest:full,full
+set wildoptions=pum
 set wrap
 
 syntax on
