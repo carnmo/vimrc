@@ -40,8 +40,6 @@ highlight Visual ctermbg=5 ctermfg=7
 let $LANG = 'en_US'
 
 let g:netrw_banner = 0
-let g:netrw_browse_split = 2
-let g:netrw_chgwin = 1
 let g:netrw_liststyle = 3
 let g:netrw_preview = 1
 let g:netrw_sort_options = "i"
@@ -61,7 +59,7 @@ nnoremap <C-l> :buffers<CR>
 nnoremap <C-o> :Lexplore<CR>
 nnoremap <C-q> :q!<CR>
 nnoremap <C-s> :w<CR>
-nnoremap <C-t> :tabnew<CR>
+nnoremap <C-t> "=strftime("%c")<CR>P
 
 packadd! termdebug
 
