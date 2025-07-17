@@ -44,7 +44,7 @@ let g:netrw_liststyle = 3
 let g:netrw_preview = 1
 let g:netrw_sort_options = "i"
 let g:netrw_sort_sequence = ""
-let g:netrw_winsize = 15
+let g:netrw_winsize = 30
 
 nnoremap <A-Down> :vsplit<CR>
 nnoremap <A-Left> :bp<CR>
