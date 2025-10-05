@@ -52,14 +52,14 @@ nnoremap <A-PageDown> :tabnext<CR>
 nnoremap <A-PageUp> :tabprevious<CR>
 nnoremap <A-Right> :bn<CR>
 nnoremap <A-Up> :split<CR>
-nnoremap <C-b> :!make<CR>
+nnoremap <C-b> :!make clean ; make -j ; make run<CR>
 nnoremap <C-d> :Termdebug<CR>
 nnoremap <C-k> :bd<CR>
 nnoremap <C-l> :buffers<CR>
 nnoremap <C-o> :Lexplore<CR>
 nnoremap <C-q> :q!<CR>
 nnoremap <C-s> :w<CR>
-nnoremap <C-t> "=strftime("%c")<CR>P
+nnoremap <C-t> "=strftime("%Y-%m-%d %H:%M:%S")<CR>P
 
 packadd! termdebug
 
